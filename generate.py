@@ -7,6 +7,7 @@ f = open('student.txt','r')
 lines = f.read().split('\n')
 print(lines)
 
+
 for i in range(0, len(lines)):
     data = lines[i].encode()
     name = data
